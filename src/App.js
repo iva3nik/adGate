@@ -1,9 +1,13 @@
+import React from "react";
+
+import Header from "./components/Header/Header";
+
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1>AdGate</h1>
+    <div className="app">
+      <Header />
     </div>
   );
 }
